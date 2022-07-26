@@ -13,81 +13,88 @@
     <style>
       body {
         margin: 0;
+        height: 100vh;
+      }
+      * {
+        border: 0px solid black;
+      }
+      .ziti {
+        font-family: "楷体";
+      }
+      .gezi {
+        height: 300px;
+        width: 400px;
+        background-color: aqua;
+      }
+
+      .bianju {
+        margin: 8px;
+      }
+      .juzhong {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .yinying {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      @media (max-width: 800px) {
+        .shouji {
+          display: none;
+        }
+        .shuxiang {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
   <body>
-    <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+      class="juzhong"
+    >
       <img
         src="https://s1.ax1x.com/2022/07/24/jjjsaT.png"
         alt="音乐"
         width="60px"
         height="60px"
       />
-      <audio
-        autoplay="autoplay"
-        controls="controls"
-        loop="loop"
-        preload="auto"
-        src="http://218.205.239.34/MIGUM2.0/v1.0/content/sub/listenSong.do?netType=00&copyrightId=0&resourceType=2&contentId=600907000006318296&toneFlag=PQ&channel=02"
-      ></audio>
+      <a class="ziti">海龙的小破站</a>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center">
+    <div
+      style="display: flex; align-items: center; justify-content: center"
+      class="shuxiang"
+    >
       <div
-        style="
-          background-color: #a6ec9d;
-          max-width: 300px;
-          height: 1000px;
-          margin: 30px auto;
-          padding: 15px;
-          line-height: 1.7;
-        "
+        class="gezi bianju juzhong yinying shuxiang"
+        style="background: url(https://s1.ax1x.com/2022/07/26/jxRV6e.jpg)"
       >
-        <p>听歌</p>
         <a
           href="http://tool.liumingye.cn/music/?page=searchPage"
           target="_blank"
-          >点击跳转
+          class="gezi1"
+        >
         </a>
       </div>
       <div
-        style="
-          background-color: #5fa7a7;
-          max-width: 300px;
-          height: 1000px;
-          margin: 30px auto;
-          padding: 15px;
-          line-height: 1.7;
-        "
+        class="gezi bianju juzhong yinying shuxiang"
+        style="background: url(https://s1.ax1x.com/2022/07/26/jxRdkq.jpg)"
       >
-        <p>影视</p>
-        <a href="https://www.libvio.me/" target="_blank">点击跳转 </a>
+        <a href="https://www.libvio.me/" target="_blank" class="gezi1"> </a>
       </div>
       <div
-        style="
-          background-color: #b293c0;
-          max-width: 300px;
-          height: 1000px;
-          margin: 30px auto;
-          padding: 15px;
-          line-height: 1.7;
-        "
+        class="gezi bianju juzhong yinying shuxiang"
+        style="background: url(https://s1.ax1x.com/2022/07/26/jxRDpT.png)"
       >
-        <p>8K壁纸</p>
-        <a href="https://wallhaven.cc/" target="_blank">点击跳转 </a>
+        <a href="https://wallhaven.cc/" target="_blank" class="gezi1"></a>
       </div>
       <div
-        style="
-          background-color: #ddd79a;
-          max-width: 300px;
-          height: 1000px;
-          margin: 30px auto;
-          padding: 15px;
-          line-height: 1.7;
-        "
+        class="gezi bianju juzhong yinying shuxiang"
+        style="background: url(https://s1.ax1x.com/2022/07/26/jxWSgS.jpg)"
       >
-        <p>LOGO网站</p>
-        <a href="https://www.logosc.cn/logo/" target="_blank">点击跳转 </a>
+        <a href="https://cook.yunyoujun.cn/" target="_blank" class="gezi1"> </a>
       </div>
     </div>
     <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
